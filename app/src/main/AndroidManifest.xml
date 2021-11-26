@@ -36,13 +36,16 @@
             android:name=".MemberLoginActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.Booking.BookingActivity"
+            android:name=".SplashActivity"
             android:exported="true" />
         <activity
             android:name=".Activities.Booking.HistoryCutActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".Activities.Booking.SelectServiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Booking.BookingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
